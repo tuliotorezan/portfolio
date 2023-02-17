@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-main-color{
+  background-color:  rgba( 220, 118, 51, 0.7);
+}
+
+.solid{
+  opacity: 1;
+}
 
