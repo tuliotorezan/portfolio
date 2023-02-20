@@ -5,7 +5,7 @@ function Education(props) {
         <section className="bg-gray-200 dark:bg-zinc-800">
             <div className="max-w-6xl px-6 py-10 mx-auto bg-main-color">
                 <div className='mx-auto mb-4 w-fit border-2 border-black dark:border-white'><h1 className='m-1 mx-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200'>EDUCATION</h1></div>
-                <div className='grid grid-cols-1 divide-y divide-solid divide-black dark:divide-white'>
+                <div className='mx-6 grid grid-cols-1 divide-y divide-solid divide-black dark:divide-white'>
                     <div  className='py-4 m-1 text-zinc-800 dark:text-gray-200'>
                         <h2 className='text-xl font-semibold inline capitalize lg:text-2xl'>GRADUATE CERTIFICATE</h2><h3 className='text-lg capitalize inline lg:text-xl'> - Nova Scotia Community College (2022-2023)</h3>
                         <p className='mt-4'>After a few year working as a data analyst and developer, I decided to take the Full Stack Application Development course at NSCC because up to this point all my programming knowledge was either self though or from advice and getting help from more experienced people. Therefore, taking a formal course was helpful to strengthen my foundation and and provide me with better programming practices.</p>
