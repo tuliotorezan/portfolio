@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 function Work(props) {
     return (
         <section className="bg-gray-200 dark:bg-zinc-800">
-            <div className="max-w-6xl px-6 py-10 mx-auto bg-main-color">
+            <div className="max-w-6xl px-6 pt-10 pb-6 mx-auto bg-main-color">
             <div className='mx-auto mb-4 w-fit border-2 border-black dark:border-white'><h1 className='m-1 mx-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200'>EXPERIENCE</h1></div>
                 <div className='px-8'>
                 <ol className="relative border-l-4 border-zinc-700 dark:border-zinc-200">
