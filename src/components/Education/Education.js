@@ -3,7 +3,7 @@ import React from 'react'
 function Education(props) {
     return (
         <section className="bg-gray-200 dark:bg-zinc-800">
-            <div className="max-w-6xl px-6 pt-8 pb-2 mx-auto bg-main-color">
+            <div className="max-w-6xl px-6 pt-8 pb-2 mx-auto bg-main-color2">
                 <div className='mx-auto mb-4 w-fit border-2 border-black dark:border-white'><h1 className='m-1 mx-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200'>EDUCATION</h1></div>
                 <div className='mx-6 grid grid-cols-1 divide-y divide-solid divide-black dark:divide-white'>
                     <div  className='py-4 m-1 text-zinc-800 dark:text-gray-200'>

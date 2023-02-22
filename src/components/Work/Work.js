@@ -4,19 +4,19 @@ import PropTypes from 'prop-types'
 function Work(props) {
     return (
         <section className="bg-gray-200 dark:bg-zinc-800">
-            <div className="max-w-6xl px-6 pt-8 pb-2 mx-auto bg-main-color2">
-                <div className='mx-auto mb-4 w-fit border-2 border-black dark:border-white'><h1 className='m-1 mx-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200'>EXPERIENCE</h1></div>
+            <div className="max-w-6xl px-6 pt-8 pb-2 mx-auto bg-main-color">
+                <div className='mx-auto mb-8 w-fit border-2 border-black dark:border-white'><h1 className='m-1 mx-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200'>EXPERIENCE</h1></div>
                 <div className='px-8'>
                     <ol className="relative border-l-4 border-zinc-700 dark:border-zinc-200">
                         <li className="mb-6 ml-6 ">
                             <span className="absolute flex items-center justify-center w-3 h-3 bg-white rounded-full mt-2 -left-2 ring-8 ring-zinc-700 dark:ring-zinc-200 dark:bg-zinc-800" />
                             <h2 className="flex items-center mb-1 text-xl font-semibold text-zinc-800 dark:text-white">Data Analyst and Python Developer</h2>
                             <time className="block mb-2 text-sm font-normal leading-none text-zinc-700 dark:text-zinc-200"><a className='hover:text-zinc-700 focus:outline-none text-orange-700 cursor-pointer' onMouseOver={() => { document.getElementById("petroPopover").classList.toggle("opacity-0") }}>Petrobras</a> - University of Uberlandia - 2019 to 2022</time>
-                            <div id="petroPopover" className="absolute z-10 transition duration-150 ease-in-out md:mt-0 mt-8 top-0 left-0 sm:ml-10 md:ml-10">
+                            <div id="petroPopover" className="opacity-0 absolute z-10 transition duration-150 ease-in-out md:mt-0 mt-8 top-0 left-0 sm:ml-10 md:ml-10">
                                 <div class="relatie w-full bg-white rounded shadow-2xl">
-                                    <div class="relative bg-zinc-300 rounded-t py-4 px-4">
+                                    <div class="relative bg-gray-200 rounded-t py-4 px-4">
                                         <img src="/petrobras.png" className="max-h-8 inline pr-2 border-r-2 border-black"/>
-                                        <p className='pl-2 inline'>Petrobras is "a publicly-held corporation that operates in an integrated and specialized manner in the oil, natural gas and energy industry. Recognized worldwide for their oil and natural gas exploration and production technology in ultra-deep waters." <a className='text-blue-600 hover:text-blue-800' href="https://petrobras.com.br/en/about-us/profile/">petrobras.com.br</a> </p>
+                                        <p className='pl-2 inline'>Petrobras is "a publicly-held corporation that operates in an integrated and specialized manner in the oil, natural gas and energy industry. Recognized worldwide for their oil and natural gas exploration and production technology in ultra-deep waters." <a className='text-blue-600 hover:text-blue-800' href="https://petrobras.com.br/en/about-us/profile/" target="_blank">petrobras.com.br</a> </p>
                                     </div>
                                 </div>
                             </div>
@@ -34,11 +34,11 @@ function Work(props) {
                             <span className="absolute flex items-center justify-center w-3 h-3 bg-white rounded-full mt-2 -left-2 ring-8 ring-zinc-700 dark:ring-zinc-200 dark:bg-zinc-800" />
                             <h2 className="flex items-center ml-6 mb-1 text-xl font-semibold text-zinc-800 dark:text-white">Undergrad Research Assistant</h2>
                             <time className="block mb-2 ml-6 text-sm font-normal leading-none text-zinc-700 dark:text-zinc-200"><a className='hover:text-zinc-700 focus:outline-none text-orange-700 cursor-pointer' onMouseOver={() => { document.getElementById("biolabPopover").classList.toggle("opacity-0") }}>Biolab</a> - Awarded grant by "Institutional Program for Scientific Initiation Grants" - 2018 to 2019</time>
-                            <div id="biolabPopover" className="absolute z-10 transition duration-150 ease-in-out md:mt-0 mt-8 top-0 left-0 sm:ml-10 md:ml-10">
+                            <div id="biolabPopover" className="opacity-0 absolute z-10 transition duration-150 ease-in-out md:mt-0 mt-8 top-0 left-0 sm:ml-10 md:ml-10">
                                 <div class="relatie w-full bg-white rounded shadow-2xl">
-                                    <div class="relative bg-zinc-300 rounded-t py-4 px-4">
+                                    <div class="relative bg-gray-200 rounded-t py-4 px-4">
                                         <img src="/biolab.jpg" className="max-h-8 inline pr-2 border-r-2 border-black"/>
-                                        <p className='pl-2 inline'>"The Biomedical Engineering Lab was founded in 1997 and is dedicated to research in the fields of neuroengineering, brain-computer interfaces, neuromotor rehabilitation, biomedical instrumentation, medical image processing and biomechanics. Besides the Principal Investigators, undergraduate, masters, PhD students and post-docs actively participate in the research developed in the lab." <a className='text-blue-600 hover:text-blue-800' href="http://www.biolab.eletrica.ufu.br/en/index.html">biolab.eletrica.ufu.br</a> </p>
+                                        <p className='pl-2 inline'>"The Biomedical Engineering Lab was founded in 1997 and is dedicated to research in the fields of neuroengineering, brain-computer interfaces, neuromotor rehabilitation, biomedical instrumentation, medical image processing and biomechanics. Besides the Principal Investigators, undergraduate, masters, PhD students and post-docs actively participate in the research developed in the lab." <a className='text-blue-600 hover:text-blue-800' href="http://www.biolab.eletrica.ufu.br/en/index.html" target="_blank">biolab.eletrica.ufu.br</a> </p>
                                     </div>
                                 </div>
                             </div>
@@ -56,11 +56,11 @@ function Work(props) {
                             <span className="absolute flex items-center justify-center w-3 h-3 bg-white rounded-full mt-2 -left-2 ring-8 ring-zinc-700 dark:ring-zinc-200 dark:bg-zinc-800" />
                             <h2 className="flex items-center mb-1 ml-6 text-xl font-semibold text-zinc-800 dark:text-white">Summer Intern</h2>
                             <time className="block mb-2 ml-6 text-sm font-normal leading-none text-zinc-700 dark:text-zinc-200"><a className='hover:text-zinc-700 focus:outline-none text-orange-700 cursor-pointer' onMouseOver={() => { document.getElementById("stuartPopover").classList.toggle("opacity-0") }}>Stuart Lab</a> - University of California, Santa Cruz - 2016</time>
-                            <div id="stuartPopover" className="absolute z-10 transition duration-150 ease-in-out md:mt-0 mt-8 top-0 left-0 sm:ml-10 md:ml-10">
+                            <div id="stuartPopover" className="opacity-0 absolute z-10 transition duration-150 ease-in-out md:mt-0 mt-8 top-0 left-0 sm:ml-10 md:ml-10">
                                 <div class="relatie w-full bg-white rounded shadow-2xl">
-                                    <div class="relative bg-zinc-300 rounded-t py-4 px-4">
+                                    <div class="relative bg-gray-200 rounded-t py-4 px-4">
                                         <img src="/UCSC.png" className="max-h-8 inline pr-2 border-r-2 border-black"/>
-                                        <p className='pl-2 inline'>"The Stuart lab uses data-driven approaches to identify and characterize genetic networks, investigate how they've evolved, and then use them to simulate and predict cellular behavior. Our approach is to design computational models and algorithms that integrate high-throughput molecular biology datasets (genomic, epigenomic, and functional genomic) to predict cellular- and organism-level phenotypes." And funnily enough I'm still in <a className='text-blue-600 hover:text-blue-800' href="https://sysbiowiki.soe.ucsc.edu/">their website</a>'s pictures</p>
+                                        <p className='pl-2 inline'>"The Stuart lab uses data-driven approaches to identify and characterize genetic networks, investigate how they've evolved, and then use them to simulate and predict cellular behavior. Our approach is to design computational models and algorithms that integrate high-throughput molecular biology datasets (genomic, epigenomic, and functional genomic) to predict cellular- and organism-level phenotypes." And funnily enough younger me is still in <a className='text-blue-600 hover:text-blue-800' href="https://sysbiowiki.soe.ucsc.edu/" target="_blank">their website</a>'s pictures</p>
                                     </div>
                                 </div>
                             </div>
