@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Skills extends Component {
     render() {
         return (
-            <section className="bg-gray-200 dark:bg-zinc-800">
+            <section ref={this.props.skills} className="bg-gray-200 dark:bg-zinc-800">
                 <div className="max-w-6xl px-6 py-8 mx-auto bg-main-color2">
                     <div className='mx-auto mb-6 w-fit border-2 border-black dark:border-white'><h1 className='m-1 mx-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200'>SKILLS</h1></div>
                     <div className='px-8 grid grid-cols-3 gap-4'>
@@ -40,6 +40,7 @@ export default class Skills extends Component {
                                 </div>
                                 <div class="px-4 pb-4 flex justify-center flex-wrap">
                                     <span class="inline-block bg-main-color rounded-full px-3 pb-1 text-sm font-semibold text-zinc-800 mr-2 mb-2">Agile</span>
+                                    <span class="inline-block bg-main-color rounded-full px-3 pb-1 text-sm font-semibold text-zinc-800 mr-2 mb-2">Unity</span>
                                     <span class="inline-block bg-main-color rounded-full px-3 pb-1 text-sm font-semibold text-zinc-800 mr-2 mb-2">My SQL</span>
                                     <span class="inline-block bg-main-color rounded-full px-3 pb-1 text-sm font-semibold text-zinc-800 mr-2 mb-2">Node.js</span>
                                     <span class="inline-block bg-main-color rounded-full px-3 pb-1 text-sm font-semibold text-zinc-800 mr-2 mb-2">Mongo DB</span>

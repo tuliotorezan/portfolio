@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function Work(props) {
+function Work({experience}) {
     return (
-        <section className="bg-gray-200 dark:bg-zinc-800">
+        <section ref={experience} className="bg-gray-200 dark:bg-zinc-800">
             <div className="max-w-6xl px-6 pt-8 pb-2 mx-auto bg-main-color">
                 <div className='mx-auto mb-8 w-fit border-2 border-black dark:border-white'><h1 className='m-1 mx-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200'>EXPERIENCE</h1></div>
                 <div className='px-8'>
