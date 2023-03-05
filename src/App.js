@@ -6,6 +6,7 @@ import Work from './components/Work/Work';
 import Skills from './components/Skills/Skills';
 import Header from './components/Header/Header';
 import { useRef } from 'react';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   const about = useRef()
@@ -20,6 +21,7 @@ function App() {
       <Skills skills={skills}/>
       <Work experience={experience}/>
       <Education education={education}/>
+      <Portfolio portfolio={portfolio}/>
     </div>
   );
 }
