@@ -4,8 +4,8 @@ function Intro({about}) {
     return (
         <section ref={about} className="bg-gray-200 dark:bg-zinc-800">
             <div className="max-w-6xl bg-main-color px-6 py-6 mx-auto">
-                    <div className="w-full bg-main-color md:flex md:items-center md:bg-transparent md:p-0 lg:px-8 md:justify-evenly">
-                        <img className="h-2 w-24 object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[18rem] lg:w-[26rem] " src="/me.jpg" alt="client photo" />
+                    <div className="w-full  md:flex items-center md:bg-transparent md:p-0 lg:px-8 md:justify-evenly">
+                        <img className="h-32 w-32 object-cover rounded-full md:rounded shadow-md md:h-[18rem] md:w-[26rem]" src="/me.jpg"/>
                         <div className="mt-2 md:ml-6">
                             <div>
                             <h1 className="mt-2 text-2xl font-semibold text-zinc-800 capitalize lg:text-3xl dark:text-gray-200">Hi I'm Túlio Torezan</h1>

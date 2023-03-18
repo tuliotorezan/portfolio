@@ -2,7 +2,8 @@ import React from 'react'
 
 function ThisSite() {
   return (
-    <div>ThisSite</div>
+    <div className='flex flex-row'>ThisSite
+    </div>
   )
 }
 
